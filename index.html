@@ -1,24 +1,289 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-S3-M18.5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Misión 18.5: El Gemelo Digital Animado</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Esta es una sesión de refuerzo práctico para implementar animaciones y transiciones fluidas con CSS.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Secuencia y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes refuercen sus habilidades en JavaScript y CSS.</li>
+                                        <li>Que diseñen e implementen animaciones y transiciones en su Gemelo Digital.</li>
+                                        <li>Que aprendan a usar la propiedad `transition` de CSS para que los cambios de estado sean suaves y fluidos, mejorando la UX.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡A.I. GYM:</strong> Repaso estratégico y contextualización de transiciones CSS.</li>
+                                        <li><strong class="tactic-highlight">⚡VIBE CODING:</strong> Diseño de la intención y generación de código por IA.</li>
+                                        <li><strong class="tactic-highlight">⚡ANÁLISIS DE CÓDIGO:</strong> Lectura y comprensión guiada del código generado ("Taming the Genie").</li>
+                                        <li><strong class="tactic-highlight">⚡IMPLEMENTACIÓN Y DEBUGGING:</strong> Pruebas de hardware/software y depuración colaborativa con Xolo.</li>
+                                        <li><strong class="tactic-highlight">⚡GNIUS STORM:</strong> Showcase de soluciones, síntesis de "insights" y reflexión iterativa.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Un Plugin de ThingSpeak con un Gemelo Digital que incluye al menos una transición CSS para animar un cambio de estado (ej. altura, color).</li>
+                                        <li>Comprensión demostrada del uso de `transition` en CSS y de la técnica `classList.add/remove` en JavaScript para gestionar estados visuales.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Cuentas de ThingSpeak con un Gemelo Digital dinámico de la misión anterior.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) operativo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-9).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Verificación del Entorno Digital y Físico (Interna):</strong>
+                                            <ul>
+                                                <li>Asegurar que los estudiantes tengan su Gemelo Digital dinámico listo para ser mejorado.</li>
+                                                <li>Familiarizarse con las herramientas de desarrollador del navegador para depurar transiciones y animaciones.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización Conceptual y Técnica:</strong> Repasar la sintaxis de la propiedad `transition` de CSS y sus componentes (propiedad, duración, función de temporización). Entender la diferencia entre manipular `.style` directamente y usar `classList`.</li>
+                                        <li><strong>Preparación de la Demostración Práctica:</strong> Tener una versión "sin transición" y "con transición" del widget de alerta de temperatura para mostrar claramente el impacto en la experiencia de usuario.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
+                <p>Establecer el tono de la sesión, activar la IA y presentar el concepto de diseño de movimiento.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto Estratégico</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta el enfoque de la misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Buenos días, diseñadores. Sus Gemelos Digitales ya están 'vivos', pero sus movimientos son bruscos, instantáneos. En el diseño de interfaces profesional, la fluidez es clave. Hoy, en esta sesión práctica, vamos a ser coreógrafos de pixeles. Aprenderemos a hacer que los cambios en su UI sean suaves y agradables a la vista.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación y Personalización de Xolo</h3>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Inicien su sesión con Xolo como de costumbre, compartiendo su perfil de aprendizaje e interés. Por ejemplo: <strong>'Hola Xolo. Soy Ana, perfil Comunicador, y hoy quiero que mi diseño no solo funcione, sino que se sienta 'premium' y fluido.'</strong> Esto posicionará a Xolo como su consultor de UX. Procedan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 2 minutos</h2>
+                <p>Clarificar la meta de aprendizaje enfocada en la mejora de la experiencia de usuario a través de la animación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: "I Can Statement" de Experiencia de Usuario</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">La meta de hoy es añadir un toque de profesionalismo. Al finalizar, podrán afirmar: <strong>'Yo puedo usar transiciones de CSS para crear animaciones fluidas que mejoren la experiencia de usuario de mi Gemelo Digital.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (Transiciones CSS) ⏰ 5 minutos</h2>
+                <p>Facilitar una sesión de aprendizaje sobre el uso de la propiedad `transition` para crear animaciones declarativas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción para el Aprendizaje Conceptual</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador dirige a los alumnos para que aprendan sobre transiciones CSS.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Iniciamos el A.I. GYM. De forma individual, su tarea es entender cómo crear animaciones de forma simple y eficiente. Usen este prompt con Xolo: <strong>'Xolo, ¿qué es una transición CSS y cómo funciona?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Supervisión y Guía del Facilitador</h3>
+                            <p>El facilitador circula, refuerza conceptos y sugiere preguntas de profundización.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras circula) "La idea de que el navegador hace el trabajo de animación es clave. Para profundizar, pregúntenle a Xolo: <strong>'¿Puedo animar cualquier propiedad de CSS con `transition`? ¿Hay alguna que no se pueda animar?'</strong> O también: <strong>'¿Qué hace exactamente la función de temporización `ease-in-out` y en qué se diferencia de `linear`?'</strong>"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark (Creación de UI Fluida) ⏰ 27 minutos</h2>
+                <p>Los estudiantes aplican transiciones CSS a sus Gemelos Digitales para crear animaciones fluidas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación del Desafío y Formación de Parejas</h3>
+                             <p>(Proyectar Diapositiva 5) El facilitador presenta el desafío de animación y da la instrucción de formar parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, a su desafío de coreografía digital. Formen sus parejas. Revisen su Gemelo Digital y diseñen una mejora de animación **libre**. ¿Qué cambio de estado pueden hacer más suave y agradable a la vista?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Diseño de la "Vibe" de Animación y Generación de Código</h3>
+                            <p>(Proyectar Diapositiva 6) Las parejas diseñan su animación, la comunican a Xolo y reciben el código CSS modificado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Definan la 'vibe' de la animación que desean y trabajen con Xolo para generar el CSS necesario. Por ejemplo: <strong>'Xolo, queremos que el cambio de color de fondo de nuestra tarjeta de temperatura sea una transición suave de un segundo. Y que la barra de humedad crezca y se encoja de forma fluida en medio segundo.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Implementación y Depuración de Transiciones</h3>
+                             <p>(Proyectar Diapositiva 7 y 8) Las parejas implementan el nuevo CSS y depuran la interacción entre JS y CSS.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Implementen las transiciones en su CSS. El desafío aquí es entender qué propiedad están animando y asegurarse de que el JavaScript esté cambiando esa propiedad. Si la animación no ocurre, describan el problema a Xolo. Por ejemplo: <strong>'Xolo, la barra se anima, pero el color cambia de golpe.'</strong> Él los guiará para entender la diferencia entre cambiar el estilo directamente en JS y usar `classList.add/remove`, que es una técnica más robusta para estos casos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Reflexión) ⏰ 5 minutos</h2>
+                <p>El facilitador modera una reflexión final enfocada en el impacto del diseño de movimiento en la UX.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual)</h3>
+                            <p>(Proyectar Diapositiva 9) Instrucción para la reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Bien, para cerrar, nuestro Think-Pair-Share. Individualmente, un minuto para pensar en una aplicación que usen que tenga animaciones que les gusten. ¿Qué hace que esas animaciones sean efectivas y no molestas?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas)</h3>
+                            <p>Los alumnos discuten cómo las animaciones afectan su percepción de calidad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, en parejas, discutan durante dos minutos: ¿cómo una animación fluida (o la falta de ella) afecta su percepción de la calidad y el profesionalismo de un producto digital?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share & Synthesis)</h3>
+                            <p>Algunas parejas muestran sus animaciones y el facilitador cierra la sesión.</p>
+                        </div>
+                        <div class="collapsible-content">
+                                <p class="dialogue assistant">Escuchemos a algunas parejas. Muestren la mejora de animación que implementaron y expliquen cómo creen que mejora la experiencia del usuario. (Escuchar respuestas). Han añadido una capa de pulido profesional a sus interfaces. Han aprendido que el movimiento es una forma de comunicación que puede hacer un producto más intuitivo y de mayor calidad. Su Gemelo Digital no solo es funcional y vivo, ahora también es elegante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
